@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T03:36:51.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="fbhbejSLzxgQj6BOK3MB" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T05:35:54.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="zroVUdLXKcY89FAvOplP" version="15.6.8" type="github">
   <diagram id="Ub3DfvRdjAp3-GLeFt8-" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,11 +64,10 @@
         <mxCell id="vuVCdyLOeT8IX-PdeQ5C-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="vuVCdyLOeT8IX-PdeQ5C-37" source="vuVCdyLOeT8IX-PdeQ5C-14" target="vuVCdyLOeT8IX-PdeQ5C-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;触发即时编译&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
-          <mxGeometry x="50" y="400" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="vuVCdyLOeT8IX-PdeQ5C-37" source="vuVCdyLOeT8IX-PdeQ5C-16" target="vuVCdyLOeT8IX-PdeQ5C-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="vuVCdyLOeT8IX-PdeQ5C-37" source="vuVCdyLOeT8IX-PdeQ5C-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vuVCdyLOeT8IX-PdeQ5C-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;CodeCache&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
           <mxGeometry x="210" y="380" width="80" height="80" as="geometry" />
@@ -76,8 +75,10 @@
         <mxCell id="vuVCdyLOeT8IX-PdeQ5C-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="vuVCdyLOeT8IX-PdeQ5C-37" source="vuVCdyLOeT8IX-PdeQ5C-15" target="vuVCdyLOeT8IX-PdeQ5C-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="vuVCdyLOeT8IX-PdeQ5C-37" source="vuVCdyLOeT8IX-PdeQ5C-17" target="vuVCdyLOeT8IX-PdeQ5C-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="vuVCdyLOeT8IX-PdeQ5C-37" target="vuVCdyLOeT8IX-PdeQ5C-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="420" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vuVCdyLOeT8IX-PdeQ5C-25" value="读取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
           <mxGeometry x="250" y="310" width="40" height="20" as="geometry" />
@@ -97,11 +98,14 @@
         <mxCell id="vuVCdyLOeT8IX-PdeQ5C-34" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
           <mxGeometry x="150" y="260" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-3" value="&lt;span style=&quot;font-size: 16px&quot;&gt;机器码&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
+        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;机器码&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
           <mxGeometry x="220" y="413" width="60" height="38" as="geometry" />
         </mxCell>
         <mxCell id="vuVCdyLOeT8IX-PdeQ5C-46" value="&lt;font style=&quot;font-size: 16px&quot;&gt;JVM&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
           <mxGeometry x="20" y="-30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuVCdyLOeT8IX-PdeQ5C-47" value="&lt;span style=&quot;font-size: 12px&quot;&gt;即时编译器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="vuVCdyLOeT8IX-PdeQ5C-37">
+          <mxGeometry x="50" y="400" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
