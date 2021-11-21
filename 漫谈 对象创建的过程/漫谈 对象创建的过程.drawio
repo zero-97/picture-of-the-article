@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T08:12:28.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="pGGTjp1oBeP1DE1HRTBb" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-21T09:12:11.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="_eIsy8L05ZezqGTpmHkE" version="15.8.2" type="github">
   <diagram id="544FozU4V-5AiARkZjcN" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -198,6 +198,33 @@
         </mxCell>
         <mxCell id="RYK0fKCT--rzND2Bt-Ix-82" value="空闲列表：2（1格）、7（1格）、9（1格）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="80" y="880" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-83" value="对象头" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-86" value="对齐填充" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-87" value="实例数据" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-89" value="对齐填充" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-90" value="实例数据" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-92" value="普通对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1030" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-93" value="数组对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1150" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-94" value="对象头" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RYK0fKCT--rzND2Bt-Ix-98" value="数组长度" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1120" width="20" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
