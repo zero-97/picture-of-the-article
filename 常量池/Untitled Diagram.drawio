@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T14:41:29.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="u5J8t6MWja55MxeETHdz" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T14:47:50.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="eJ3HJC7OPIT1LJB6qsdc" version="15.9.4" type="github">
   <diagram id="RAKNBQ7omsVKOhYnc0PZ" name="Page-1">
-    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1245,23 +1245,34 @@
         <mxCell id="8eRTCUj2dcXkMBDHqqjd-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="856.25" y="3980" width="27.5" height="155" as="geometry" />
         </mxCell>
+        <mxCell id="8eRTCUj2dcXkMBDHqqjd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;strokeWidth=2;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8eRTCUj2dcXkMBDHqqjd-10" target="8eRTCUj2dcXkMBDHqqjd-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1029.75" y="3960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8eRTCUj2dcXkMBDHqqjd-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1016" y="3980" width="27.5" height="155" as="geometry" />
         </mxCell>
+        <mxCell id="8eRTCUj2dcXkMBDHqqjd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;strokeWidth=2;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8eRTCUj2dcXkMBDHqqjd-11" target="8eRTCUj2dcXkMBDHqqjd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8eRTCUj2dcXkMBDHqqjd-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1176" y="3980" width="27.5" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="8eRTCUj2dcXkMBDHqqjd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;strokeWidth=2;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8eRTCUj2dcXkMBDHqqjd-12" target="8eRTCUj2dcXkMBDHqqjd-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8eRTCUj2dcXkMBDHqqjd-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-90;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1336" y="3980" width="27.5" height="155" as="geometry" />
         </mxCell>
         <mxCell id="8eRTCUj2dcXkMBDHqqjd-14" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;access_flags&lt;br&gt;字段访问标志&lt;br&gt;（ACC_PRIVATE）&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
-          <mxGeometry x="949.75" y="3860" width="160" height="40" as="geometry" />
+          <mxGeometry x="950" y="3860" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8eRTCUj2dcXkMBDHqqjd-15" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;name_index&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1109.75" y="3960" width="160" height="40" as="geometry" />
+        <mxCell id="8eRTCUj2dcXkMBDHqqjd-15" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;name_index&lt;br&gt;字段名称&lt;br&gt;（对应常量池第5个）&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1064.75" y="3720" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="8eRTCUj2dcXkMBDHqqjd-16" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;descriptor_index&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1269.75" y="3800" width="160" height="40" as="geometry" />
+        <mxCell id="8eRTCUj2dcXkMBDHqqjd-16" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;descriptor_index&lt;br&gt;描述符&lt;br&gt;（对应常量池第6个）&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1224.75" y="3860" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8eRTCUj2dcXkMBDHqqjd-17" value="&lt;font style=&quot;font-size: 25px&quot;&gt;类索引、发类索引、接口索引集合&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="341" y="3950" width="391.25" height="60" as="geometry" />
