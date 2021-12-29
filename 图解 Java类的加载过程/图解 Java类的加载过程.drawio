@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T06:13:09.812Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" version="16.1.0" etag="lYqavHwGpD5mAK-bNWyy" type="github"><diagram id="-mWLJTBbonc0lx5hOYRL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-29T06:46:09.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="VfePUnr0FS0LXzUWH4FU" version="16.1.0" type="github">
+  <diagram id="-mWLJTBbonc0lx5hOYRL" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6yD3xclhxtMBLVO-UMyI-1" value="对于数组类而言，情况就有所不同，数组类本身不通过类加载器创建，它是由Java虚拟机直接在&#xa;内存中动态构造出来的" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="530" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
