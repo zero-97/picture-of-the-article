@@ -1,11 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T06:46:09.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="VfePUnr0FS0LXzUWH4FU" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-02T07:35:25.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="o90hJMltt4h-DoOVCop3" version="16.1.0" type="github">
   <diagram id="-mWLJTBbonc0lx5hOYRL" name="Page-1">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6yD3xclhxtMBLVO-UMyI-1" value="对于数组类而言，情况就有所不同，数组类本身不通过类加载器创建，它是由Java虚拟机直接在&#xa;内存中动态构造出来的" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="530" height="40" as="geometry" />
+        <mxCell id="6yD3xclhxtMBLVO-UMyI-1" value="对于数组类而言，情况就有所不同，数组类本身不通过类加载器创建，它是由Java虚拟机直接在&#xa;内存中动态构造出来的" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;" edge="1" parent="1" source="H_NSW02naeDxwuSfX-ia-2" target="H_NSW02naeDxwuSfX-ia-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;加载&lt;br&gt;（Loading）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;" edge="1" parent="1" source="H_NSW02naeDxwuSfX-ia-3" target="H_NSW02naeDxwuSfX-ia-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-3" value="&lt;font style=&quot;font-size: 15px&quot;&gt;验证&lt;br&gt;（Verification）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;" edge="1" parent="1" source="H_NSW02naeDxwuSfX-ia-4" target="H_NSW02naeDxwuSfX-ia-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;准备&lt;br&gt;（Preparation）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;" edge="1" parent="1" source="H_NSW02naeDxwuSfX-ia-5" target="H_NSW02naeDxwuSfX-ia-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;解析&lt;br&gt;（Resolution）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_NSW02naeDxwuSfX-ia-6" value="&lt;font style=&quot;font-size: 15px&quot;&gt;初始化（Initialization）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
