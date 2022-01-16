@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T07:58:18.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="ElfImJKuN_3DyJHkiCCS" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T07:59:58.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="obCmGGLalq-_xB_oLQ7R" version="16.2.4" type="github">
   <diagram id="qBCjlt25KRQtaHGqp65k" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="l2aSM_IQ1fyb2ekPa7TK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-20" target="l2aSM_IQ1fyb2ekPa7TK-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-20" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;扩展类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Extension ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-20" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;平台类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Plateform ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="240" y="560" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l2aSM_IQ1fyb2ekPa7TK-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;fontSize=15;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-24" target="l2aSM_IQ1fyb2ekPa7TK-23">
