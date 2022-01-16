@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T07:20:07.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="dDkglhEDMOwYaxVnFL0A" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T07:20:55.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="J8S4KXRCdTzjPbzKSOTo" version="16.2.4" type="github">
   <diagram id="qBCjlt25KRQtaHGqp65k" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="l2aSM_IQ1fyb2ekPa7TK-13" value="org.demo.ModuleB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-16" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;&lt;b&gt;TestDemo.java&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;使用 org.demo.ModuleB 模块的：&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;&lt;span&gt;&amp;nbsp;org.demo.requireA.RequireA（成功）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;org.demo.requireB.RequireB（失败）&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-16" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;&lt;b&gt;TestDemo.java&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;使用 org.demo.ModuleB 模块的：&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;&lt;span&gt;org.demo.requireA.RequireA（成功）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;org.demo.requireB.RequireB（失败）&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="280" height="120" as="geometry" />
         </mxCell>
       </root>
