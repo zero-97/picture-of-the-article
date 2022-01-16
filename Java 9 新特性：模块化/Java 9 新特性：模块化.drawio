@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T07:20:55.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="J8S4KXRCdTzjPbzKSOTo" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T07:58:18.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="ElfImJKuN_3DyJHkiCCS" version="16.2.4" type="github">
   <diagram id="qBCjlt25KRQtaHGqp65k" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -36,6 +36,44 @@
         </mxCell>
         <mxCell id="l2aSM_IQ1fyb2ekPa7TK-16" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;&lt;b&gt;TestDemo.java&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;使用 org.demo.ModuleB 模块的：&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;&lt;span&gt;org.demo.requireA.RequireA（成功）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.5&quot;&gt;org.demo.requireB.RequireB（失败）&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-18" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;启动类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Bootstrap ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-20" target="l2aSM_IQ1fyb2ekPa7TK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-20" target="l2aSM_IQ1fyb2ekPa7TK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-20" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;扩展类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Extension ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;fontSize=15;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-24" target="l2aSM_IQ1fyb2ekPa7TK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;fontSize=15;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-25" target="l2aSM_IQ1fyb2ekPa7TK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-23" target="l2aSM_IQ1fyb2ekPa7TK-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="720" />
+              <mxPoint x="480" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l2aSM_IQ1fyb2ekPa7TK-23" target="l2aSM_IQ1fyb2ekPa7TK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-23" value="应用程序类加载器&lt;br style=&quot;font-size: 15px;&quot;&gt;（Application ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-24" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;自定义类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（User ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2aSM_IQ1fyb2ekPa7TK-25" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;自定义类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（User ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="800" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
