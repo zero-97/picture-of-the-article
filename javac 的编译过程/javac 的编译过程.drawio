@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T04:58:25.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="IxqGAKwD7_b0rdiYDaMq" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-22T08:41:40.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="hbkenNYb0hU5KRBOs3dM" version="16.2.7" type="github">
   <diagram id="GTP2Jy751cfdpb6Nv49d" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,6 +46,88 @@
         </mxCell>
         <mxCell id="7VngOlp7SWyjkgBkYQJs-12" value="初始化插入式注解器&lt;br&gt;（Init Annotator）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-15" target="7VngOlp7SWyjkgBkYQJs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-15" value="*.java 文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-16" target="7VngOlp7SWyjkgBkYQJs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-16" value="初始化插入式注解器&lt;br&gt;（Init Annotator）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-18" target="7VngOlp7SWyjkgBkYQJs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-18" value="解析与填充符号&lt;br style=&quot;font-size: 13px;&quot;&gt;（Parse and Enter）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-20" target="7VngOlp7SWyjkgBkYQJs-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-20" target="7VngOlp7SWyjkgBkYQJs-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="520" />
+              <mxPoint x="660" y="580" />
+              <mxPoint x="260" y="580" />
+              <mxPoint x="260" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-20" value="注解处理&lt;br style=&quot;font-size: 13px;&quot;&gt;（Annotation Processing）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-22" target="7VngOlp7SWyjkgBkYQJs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-22" value="分析与字节码生成&lt;br style=&quot;font-size: 13px;&quot;&gt;（Analyse and Generate）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-23" value="*.class 文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-27" target="7VngOlp7SWyjkgBkYQJs-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-27" value="Token：INT&lt;br&gt;Name：int" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-28" target="7VngOlp7SWyjkgBkYQJs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-28" value="Token：IDENTIFIER&lt;br&gt;Name：a" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-30" target="7VngOlp7SWyjkgBkYQJs-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-30" value="Token：EQ&lt;br&gt;Name：=" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-32" target="7VngOlp7SWyjkgBkYQJs-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-32" value="Token：IDENTIFIER&lt;br&gt;Name：b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-34" target="7VngOlp7SWyjkgBkYQJs-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-34" value="Token：PLUS&lt;br&gt;Name：+" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;" edge="1" parent="1" source="7VngOlp7SWyjkgBkYQJs-36" target="7VngOlp7SWyjkgBkYQJs-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-36" value="Token：INTLITERAL&lt;br&gt;Name：2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7VngOlp7SWyjkgBkYQJs-37" value="Token：SEMI&lt;br&gt;Name：;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
