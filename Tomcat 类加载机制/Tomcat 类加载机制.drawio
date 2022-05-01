@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T15:57:01.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" version="17.5.0" etag="Ejvbg7HoPqVeByJoivMd" type="github"><diagram id="LC-mlayZsyrtB2Zl-kx3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-01T16:07:43.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="4Zu61zgXWzr3QTzRiTfW" version="17.5.0" type="github">
+  <diagram id="LC-mlayZsyrtB2Zl-kx3" name="Page-1">
+    <mxGraphModel dx="920" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vT2fOAS-BkIauPyiovnA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-4" target="vT2fOAS-BkIauPyiovnA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-2" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;启动类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Bootstrap ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-7" target="vT2fOAS-BkIauPyiovnA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-4" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;扩展类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Extension ClassLoader）&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-7" value="应用程序类加载器&lt;br style=&quot;font-size: 15px;&quot;&gt;（Application ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-10" target="vT2fOAS-BkIauPyiovnA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-10" value="Tomcat基本类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Common ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-12" target="vT2fOAS-BkIauPyiovnA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-12" value="Tomcat私有类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Catalina ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-13" target="vT2fOAS-BkIauPyiovnA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-13" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;WebApp共享&lt;/span&gt;类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Shared ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-14" target="vT2fOAS-BkIauPyiovnA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-14" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;WebApp私有&lt;/span&gt;类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（WebApp ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="vT2fOAS-BkIauPyiovnA-15" target="vT2fOAS-BkIauPyiovnA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vT2fOAS-BkIauPyiovnA-15" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Jsp&lt;/span&gt;类加载器&lt;br style=&quot;font-size: 15px&quot;&gt;（Jasper ClassLoader）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
