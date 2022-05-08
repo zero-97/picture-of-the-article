@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T07:33:20.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="Nid1IGkjdGQ1eguJ3eoP" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T07:33:56.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="kYyPDAj4be9-NXTMfCVl" version="17.5.0" type="github">
   <diagram id="LC-mlayZsyrtB2Zl-kx3" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,40 +7,40 @@
         <mxCell id="vT2fOAS-BkIauPyiovnA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" parent="1" source="vT2fOAS-BkIauPyiovnA-4" target="vT2fOAS-BkIauPyiovnA-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-2" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;Bootstrap ClassLoader&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-2" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;BootstrapClassLoader&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="240" y="40" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vT2fOAS-BkIauPyiovnA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vT2fOAS-BkIauPyiovnA-7" target="vT2fOAS-BkIauPyiovnA-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-4" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;Extension ClassLoader&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-4" value="&lt;p style=&quot;line-height: 1.5&quot;&gt;ExtensionClassLoader&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="240" y="140" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-7" value="Application ClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-7" value="ApplicationClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vT2fOAS-BkIauPyiovnA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="vT2fOAS-BkIauPyiovnA-10" target="vT2fOAS-BkIauPyiovnA-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-10" value="Common ClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-10" value="CommonClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="240" y="340" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vT2fOAS-BkIauPyiovnA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vT2fOAS-BkIauPyiovnA-12" target="vT2fOAS-BkIauPyiovnA-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-12" value="Catalina ClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-12" value="CatalinaClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="120" y="440" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vT2fOAS-BkIauPyiovnA-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vT2fOAS-BkIauPyiovnA-13" target="vT2fOAS-BkIauPyiovnA-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-13" value="Shared ClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-13" value="SharedClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="440" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vT2fOAS-BkIauPyiovnA-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="vT2fOAS-BkIauPyiovnA-14" target="vT2fOAS-BkIauPyiovnA-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vT2fOAS-BkIauPyiovnA-14" value="WebApp ClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="vT2fOAS-BkIauPyiovnA-14" value="WebAppClassLoader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="540" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
