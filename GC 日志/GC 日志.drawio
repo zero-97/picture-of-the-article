@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T08:08:49.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="mXIFwyrvDcqIPCOOGa2U" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T08:21:47.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="xFuw4dCSMUBnvKjpJyrV" version="18.1.2" type="github">
   <diagram id="NlRJxYW8UpilXBL_nWnW" name="Page-1">
     <mxGraphModel dx="2130" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,15 @@
         <mxCell id="u_Nbogl8nR4eLy22-XEc-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="174" y="404" width="423" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="u_Nbogl8nR4eLy22-XEc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-22" target="u_Nbogl8nR4eLy22-XEc-51">
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-22" target="u_Nbogl8nR4eLy22-XEc-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1074" y="449" />
+              <mxPoint x="1074" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-22" target="u_Nbogl8nR4eLy22-XEc-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
@@ -91,11 +99,11 @@
         <mxCell id="u_Nbogl8nR4eLy22-XEc-44" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;Metaspace：表示元空间（方法区）&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1087" y="328" width="281" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="u_Nbogl8nR4eLy22-XEc-45" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;class space：&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-45" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;class space：class 指针的空间大小&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1087" y="376" width="281" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="u_Nbogl8nR4eLy22-XEc-51" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1087" y="432.5" width="281" height="33" as="geometry" />
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-51" value="&lt;div style=&quot;text-align: start;&quot;&gt;new threshold：新生代晋升到老年代经过 GC 次数的最大值，默认值是 7，最大值是 15&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="475" width="640" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-53" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-389" y="464.5" width="479" height="33" as="geometry" />
@@ -120,6 +128,9 @@
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-61" value="&lt;div style=&quot;text-align: start;&quot;&gt;Stopping threads took：等待所有用户线程到达安全点的时间&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-370" y="861" width="464" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-62" value="&lt;div style=&quot;text-align: start;&quot;&gt;Desired survivor size：Survivor（from + to）区存活对象的空间大小的阈值&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="432.5" width="547" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
