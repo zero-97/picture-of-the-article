@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T08:39:25.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="TMnCuBWhIQkwSfdQxp4k" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T08:48:06.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="q7b-ijyROdhmzRvGZqR1" version="18.1.2" type="github">
   <diagram id="NlRJxYW8UpilXBL_nWnW" name="Page-1">
-    <mxGraphModel dx="1453" dy="349" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,8 +138,8 @@
         <mxCell id="u_Nbogl8nR4eLy22-XEc-62" value="&lt;div style=&quot;text-align: start;&quot;&gt;Desired survivor size：Survivor（from + to）区存活对象的空间大小的阈值&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1127" y="432.5" width="547" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="u_Nbogl8nR4eLy22-XEc-64" value="&lt;div style=&quot;text-align: start;&quot;&gt;整个新生代空间回收情况，总空间大小是 2048K，回收前空间大小是 1536K，回收后空间大小是 504K&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-658" y="519" width="748" height="33" as="geometry" />
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-64" value="&lt;div style=&quot;text-align: start;&quot;&gt;user：用户态花费的时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="508" width="272" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#00CC00;strokeWidth=4;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="157" y="102" width="930" height="299" as="geometry" />
@@ -155,6 +155,12 @@
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-73" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;回收后&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-84" y="642" width="174" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-76" value="&lt;div style=&quot;text-align: start;&quot;&gt;sys：内核态花费的时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-182" y="551.5" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-77" value="&lt;div style=&quot;text-align: start;&quot;&gt;real：GC 花费的绝对时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-182" y="597" width="272" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
