@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T07:31:15.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="avF44DfNqb5pswXiZX_5" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T07:41:38.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="oyEsgZ-f5gFGU9CvBNyG" version="18.1.2" type="github">
   <diagram id="NlRJxYW8UpilXBL_nWnW" name="Page-1">
     <mxGraphModel dx="1944" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,12 +17,12 @@
           <mxGeometry x="174" y="115" width="294" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-7" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;invocations：垃圾回收的次数&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="31" width="256" height="33" as="geometry" />
+          <mxGeometry x="-166" y="35" width="256" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-9" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;full：Full GC 的次数&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-84" y="76" width="174" height="33" as="geometry" />
+          <mxGeometry x="-84" y="78" width="174" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="u_Nbogl8nR4eLy22-XEc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-11" target="u_Nbogl8nR4eLy22-XEc-12">
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-11" target="u_Nbogl8nR4eLy22-XEc-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-11" target="u_Nbogl8nR4eLy22-XEc-14">
@@ -32,10 +32,10 @@
           <mxGeometry x="174" y="147" width="817" height="122" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-12" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;PSYoungGen：表示新生代，&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; background-color: initial;&quot;&gt;并且使用 Parallel Scavenge 收集器来 GC&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-438" y="121" width="528" height="33" as="geometry" />
+          <mxGeometry x="-438" y="120" width="528" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-14" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;total：新生代的空间大小；&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; background-color: initial;&quot;&gt;used：已使用空间大小&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-295" y="166" width="385" height="32" as="geometry" />
+          <mxGeometry x="-295" y="162" width="385" height="32" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-11" target="u_Nbogl8nR4eLy22-XEc-17">
           <mxGeometry relative="1" as="geometry">
@@ -43,13 +43,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-17" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;eden、from、to 三个区域的空间使用情况&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-295" y="209" width="385" height="32" as="geometry" />
+          <mxGeometry x="-295" y="204" width="385" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-19" target="u_Nbogl8nR4eLy22-XEc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-19" target="u_Nbogl8nR4eLy22-XEc-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="174" y="275" width="764" height="59" as="geometry" />
         </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-20" target="u_Nbogl8nR4eLy22-XEc-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-20" target="u_Nbogl8nR4eLy22-XEc-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="174" y="341" width="622" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-21" target="u_Nbogl8nR4eLy22-XEc-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="174" y="404" width="423" height="26" as="geometry" />
@@ -59,6 +74,21 @@
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="174" y="468" width="890" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-24" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;ParOldGen&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;：表示老年代，&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;并且使用 Parallel old&amp;nbsp;收集器来 GC&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-381" y="247" width="471" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-26" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;object space：对象实例的空间使用情况&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="288" width="316" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-28" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;GC (Allocation Failure) ：&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; background-color: initial;&quot;&gt;这次 GC 的原因是分配新的内存失败&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-385" y="412" width="479" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-30" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;Metaspace：表示元空间（方法区）&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-191" y="329" width="281" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_Nbogl8nR4eLy22-XEc-32" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;class space：&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-191" y="370" width="281" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
