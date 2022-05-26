@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T09:16:03.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="9Ek-kn3GlC2BQGkhs-vO" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T09:16:12.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="gvuVjPs6tJiYTyYuVEnN" version="18.1.2" type="github">
   <diagram id="NlRJxYW8UpilXBL_nWnW" name="Page-1">
     <mxGraphModel dx="2391" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-3" value="2022-05-26T14:54:55.659+0800: Application time: 0.0010425 seconds&lt;p style=&quot;line-height: 2;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{Heap before GC invocations=1 (full 0):&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;PSYoungGen&amp;nbsp; &amp;nbsp; &amp;nbsp; total 2048K, used 1536K [0x00000000ffd80000, 0x0000000100000000, 0x0000000100000000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; eden space 1536K, 100% used [0x00000000ffd80000,0x00000000fff00000,0x00000000fff00000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; from space 512K, 0% used [0x00000000fff80000,0x00000000fff80000,0x0000000100000000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; to&amp;nbsp; &amp;nbsp;space 512K, 0% used [0x00000000fff00000,0x00000000fff00000,0x00000000fff80000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;ParOldGen&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;total 5632K, used 0K [0x00000000ff800000, 0x00000000ffd80000, 0x00000000ffd80000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; object space 5632K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffd80000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Metaspace&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;used 3113K, capacity 4494K, committed 4864K, reserved 1056768K&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; class space&amp;nbsp; &amp;nbsp; used 338K, capacity 386K, committed 512K, reserved 1048576K&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2022-05-26T14:54:55.660+0800: [GC (Allocation Failure)&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Desired survivor size 524288 bytes, new threshold 7 (max 15)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[PSYoungGen: 1536K-&amp;gt;504K(2048K)] 1536K-&amp;gt;624K(7680K), 0.0008913 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Heap after GC invocations=1 (full 0):&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;PSYoungGen&amp;nbsp; &amp;nbsp; &amp;nbsp; total 2048K, used 504K [0x00000000ffd80000, 0x0000000100000000, 0x0000000100000000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; eden space 1536K, 0% used [0x00000000ffd80000,0x00000000ffd80000,0x00000000fff00000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; from space 512K, 98% used [0x00000000fff00000,0x00000000fff7e010,0x00000000fff80000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; to&amp;nbsp; &amp;nbsp;space 512K, 0% used [0x00000000fff80000,0x00000000fff80000,0x0000000100000000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;ParOldGen&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;total 5632K, used 120K [0x00000000ff800000, 0x00000000ffd80000, 0x00000000ffd80000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; object space 5632K, 2% used [0x00000000ff800000,0x00000000ff81e000,0x00000000ffd80000)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Metaspace&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;used 3113K, capacity 4494K, committed 4864K, reserved 1056768K&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; class space&amp;nbsp; &amp;nbsp; used 338K, capacity 386K, committed 512K, reserved 1048576K&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2022-05-26T14:54:55.661+0800: Total time for which application threads were stopped: 0.0011914 seconds, Stopping threads took: 0.0000654 seconds&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="181" y="75" width="1085" height="791" as="geometry" />
+          <mxGeometry x="181" y="107" width="1085" height="791" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-6" target="u_Nbogl8nR4eLy22-XEc-7">
           <mxGeometry relative="1" as="geometry" />
@@ -17,13 +17,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="115" width="294" height="26" as="geometry" />
+          <mxGeometry x="174" y="147" width="294" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-7" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;invocations：垃圾回收的次数&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="69" width="256" height="33" as="geometry" />
+          <mxGeometry x="-166" y="101" width="256" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-9" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;full：Full GC 的次数&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-84" y="111.5" width="174" height="33" as="geometry" />
+          <mxGeometry x="-84" y="143.5" width="174" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-11" target="u_Nbogl8nR4eLy22-XEc-39">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="147" width="817" height="122" as="geometry" />
+          <mxGeometry x="174" y="179" width="817" height="122" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-19" target="u_Nbogl8nR4eLy22-XEc-24">
           <mxGeometry relative="1" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="275" width="764" height="59" as="geometry" />
+          <mxGeometry x="174" y="307" width="764" height="59" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-20" target="u_Nbogl8nR4eLy22-XEc-44">
           <mxGeometry relative="1" as="geometry" />
@@ -53,19 +53,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="341" width="622" height="56" as="geometry" />
+          <mxGeometry x="174" y="373" width="622" height="56" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-21" target="u_Nbogl8nR4eLy22-XEc-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="404" width="423" height="26" as="geometry" />
+          <mxGeometry x="174" y="436" width="423" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-22" target="u_Nbogl8nR4eLy22-XEc-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1074" y="449" />
-              <mxPoint x="1074" y="492" />
+              <mxPoint x="1074" y="481" />
+              <mxPoint x="1074" y="524" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -73,7 +73,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="436" width="456" height="26" as="geometry" />
+          <mxGeometry x="174" y="468" width="456" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-23" target="u_Nbogl8nR4eLy22-XEc-53">
           <mxGeometry relative="1" as="geometry" />
@@ -88,43 +88,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="468" width="890" height="26" as="geometry" />
+          <mxGeometry x="174" y="500" width="890" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-24" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;ParOldGen&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;：表示老年代，&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;并且使用 Parallel old&amp;nbsp;收集器来 GC&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-381" y="247" width="471" height="33" as="geometry" />
+          <mxGeometry x="-381" y="279" width="471" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-26" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;object space：对象实例的空间使用情况&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-226" y="288" width="316" height="33" as="geometry" />
+          <mxGeometry x="-226" y="320" width="316" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-28" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;GC (Allocation Failure) ：&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; background-color: initial;&quot;&gt;这次 GC 的原因是分配新的内存失败&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-389" y="400.5" width="479" height="33" as="geometry" />
+          <mxGeometry x="-389" y="432.5" width="479" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-38" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;PSYoungGen：表示新生代，&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; background-color: initial;&quot;&gt;并且使用 Parallel Scavenge 收集器来 GC&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="144.5" width="528" height="33" as="geometry" />
+          <mxGeometry x="1127" y="176.5" width="528" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-39" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;total：新生代的空间大小；&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; background-color: initial;&quot;&gt;used：已使用空间大小&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="192" width="385" height="32" as="geometry" />
+          <mxGeometry x="1127" y="224" width="385" height="32" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-40" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;eden、from、to 三个区域的空间使用情况&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="240" width="385" height="32" as="geometry" />
+          <mxGeometry x="1127" y="272" width="385" height="32" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-44" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;Metaspace：表示元空间（方法区）&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="328" width="281" height="33" as="geometry" />
+          <mxGeometry x="1127" y="360" width="281" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-45" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;class space：class 指针的空间大小&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="376" width="281" height="33" as="geometry" />
+          <mxGeometry x="1127" y="408" width="281" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-51" value="&lt;div style=&quot;text-align: start;&quot;&gt;new threshold：新生代晋升到老年代经过 GC 次数的最大值，默认值是 7，最大值是 15&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="475" width="640" height="33" as="geometry" />
+          <mxGeometry x="1127" y="507" width="640" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-53" value="&lt;div style=&quot;text-align: start;&quot;&gt;PSYoungGen：新生代空间回收情况，总空间是 2048K，回收前空间是 1536K，回收后空间是 504K&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="464.5" width="720" height="33" as="geometry" />
+          <mxGeometry x="-630" y="496.5" width="720" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-55" target="u_Nbogl8nR4eLy22-XEc-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="73" width="520" height="26" as="geometry" />
+          <mxGeometry x="174" y="105" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-56" target="u_Nbogl8nR4eLy22-XEc-59">
           <mxGeometry relative="1" as="geometry" />
@@ -133,43 +133,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-56" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="174" y="821" width="1099" height="26" as="geometry" />
+          <mxGeometry x="174" y="853" width="1099" height="26" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-57" value="&lt;div style=&quot;text-align: start;&quot;&gt;Application time：程序运行的时间&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="69" width="274" height="33" as="geometry" />
+          <mxGeometry x="1127" y="101" width="274" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-59" value="&lt;div style=&quot;text-align: start;&quot;&gt;Total time for which application threads were stopped：因为 GC 而导致用户线程冻结的时间&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-592" y="817.5" width="682" height="33" as="geometry" />
+          <mxGeometry x="-592" y="849.5" width="682" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-61" value="&lt;div style=&quot;text-align: start;&quot;&gt;Stopping threads took：等待所有用户线程到达安全点的时间&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-374" y="865" width="464" height="33" as="geometry" />
+          <mxGeometry x="-374" y="897" width="464" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-62" value="&lt;div style=&quot;text-align: start;&quot;&gt;Desired survivor size：Survivor（from + to）区存活对象的空间大小的阈值&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="432.5" width="547" height="33" as="geometry" />
+          <mxGeometry x="1127" y="464.5" width="547" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-64" value="&lt;div style=&quot;text-align: start;&quot;&gt;user：用户态花费的时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="508" width="272" height="33" as="geometry" />
+          <mxGeometry x="-180" y="540" width="272" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#00CC00;strokeWidth=4;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="157" y="110" width="930" height="291" as="geometry" />
+          <mxGeometry x="157" y="142" width="930" height="291" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="u_Nbogl8nR4eLy22-XEc-70" target="u_Nbogl8nR4eLy22-XEc-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#00CC00;strokeWidth=4;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="157" y="501" width="930" height="315" as="geometry" />
+          <mxGeometry x="157" y="533" width="930" height="315" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-71" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;回收前&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="532" y="15" width="174" height="33" as="geometry" />
+          <mxGeometry x="532" y="47" width="174" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-73" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial&quot; color=&quot;#333333&quot;&gt;回收后&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1127" y="642" width="174" height="33" as="geometry" />
+          <mxGeometry x="1127" y="674" width="174" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-76" value="&lt;div style=&quot;text-align: start;&quot;&gt;sys：内核态花费的时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-182" y="551.5" width="272" height="33" as="geometry" />
+          <mxGeometry x="-182" y="583.5" width="272" height="33" as="geometry" />
         </mxCell>
         <mxCell id="u_Nbogl8nR4eLy22-XEc-77" value="&lt;div style=&quot;text-align: start;&quot;&gt;real：GC 花费的绝对时间&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-182" y="597" width="272" height="33" as="geometry" />
+          <mxGeometry x="-182" y="629" width="272" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
