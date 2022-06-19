@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T06:41:42.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="L9uRSQvUPZ7v86Zw_bUW" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-19T06:45:14.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="8vGgU5Na0WsVRI7Au8pU" version="19.0.0" type="github">
   <diagram id="R_80vvvkc3iU0kmPE42c" name="Page-1">
-    <mxGraphModel dx="2483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,6 +673,24 @@
         </mxCell>
         <mxCell id="Pf0RHAEw8RVajDY7MxNQ-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pf0RHAEw8RVajDY7MxNQ-61" target="Pf0RHAEw8RVajDY7MxNQ-82">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf0RHAEw8RVajDY7MxNQ-288" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="760" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf0RHAEw8RVajDY7MxNQ-289" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="820" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf0RHAEw8RVajDY7MxNQ-290" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="880" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf0RHAEw8RVajDY7MxNQ-291" value="键值：主键（聚簇索引）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="770" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf0RHAEw8RVajDY7MxNQ-292" value="指针：存储子节点的地址信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="830" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf0RHAEw8RVajDY7MxNQ-293" value="数据：主键外的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="890" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
