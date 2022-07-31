@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T06:54:04.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="G0Mqzgi8ZhUxuPlDKPcF" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T08:29:53.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="pkqnnxuJIgzSdQBVoBIO" version="20.0.3" type="github">
   <diagram id="vDngCP8xt4QHyT7rM9b4" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,6 +129,81 @@
         </mxCell>
         <mxCell id="4jA8FTdPtR9cPU2ZmF4B-25" value="File Trailer&amp;nbsp;&lt;br&gt;（8 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="200" y="1040" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4jA8FTdPtR9cPU2ZmF4B-26" target="4jA8FTdPtR9cPU2ZmF4B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-26" value="File Header&lt;br&gt;（38 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-27" value="Page Header&lt;br&gt;（56 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-28" value="Infimum + Supremum&lt;br&gt;（26 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-29" value="User Records&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-30" value="Free Space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ABB3FC;strokeColor=#617FAB;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-31" value="Page Directory&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-32" value="File Trailer&amp;nbsp;&lt;br&gt;（8 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4jA8FTdPtR9cPU2ZmF4B-33" target="4jA8FTdPtR9cPU2ZmF4B-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="4jA8FTdPtR9cPU2ZmF4B-33" target="4jA8FTdPtR9cPU2ZmF4B-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-33" value="File Header&lt;br&gt;（38 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-34" value="Page Header&lt;br&gt;（56 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-35" value="Infimum + Supremum&lt;br&gt;（26 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-36" value="User Records&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-37" value="Free Space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ABB3FC;strokeColor=#617FAB;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-38" value="Page Directory&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-39" value="File Trailer&amp;nbsp;&lt;br&gt;（8 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="4jA8FTdPtR9cPU2ZmF4B-40" target="4jA8FTdPtR9cPU2ZmF4B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-40" value="File Header&lt;br&gt;（38 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-41" value="Page Header&lt;br&gt;（56 字节）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-42" value="Infimum + Supremum&lt;br&gt;（26 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-43" value="User Records&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-44" value="Free Space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ABB3FC;strokeColor=#617FAB;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-45" value="Page Directory&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4jA8FTdPtR9cPU2ZmF4B-46" value="File Trailer&amp;nbsp;&lt;br&gt;（8 字节 ）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1400" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
