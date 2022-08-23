@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T12:36:43.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="2BUrmriEd-9RPYsiSE07" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T12:37:50.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="nmltcR1PsHAi9-eyP4d-" version="20.2.5" type="github">
   <diagram id="tUmb8XhlvgioK_n3crcl" name="Page-1">
     <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-3" value="是否指定分区" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="680" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="680" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tas6K1aLXxDEl5l0J1Os-5" target="tas6K1aLXxDEl5l0J1Os-7">
           <mxGeometry relative="1" as="geometry" />
@@ -111,22 +111,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-5" value="是否指定key" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="770" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-7" value="默认的&lt;br&gt;分区策略" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="840" width="60" height="60" as="geometry" />
+          <mxGeometry x="350" y="860" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="350" y="580" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-11" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="720" width="40" height="30" as="geometry" />
+          <mxGeometry x="370" y="730" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="800" width="40" height="30" as="geometry" />
+          <mxGeometry x="370" y="820" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-14" value="指定的&lt;br&gt;分区" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="480" y="670" width="60" height="60" as="geometry" />
+          <mxGeometry x="480" y="675" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-16" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="670" width="40" height="30" as="geometry" />
@@ -135,7 +135,7 @@
           <mxGeometry x="440" y="750" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tas6K1aLXxDEl5l0J1Os-18" value="key的&lt;br&gt;hash分区" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="480" y="750" width="60" height="60" as="geometry" />
+          <mxGeometry x="480" y="765" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
