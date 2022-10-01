@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-01T12:45:39.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="Lh8rbg-n-u9cQbau3Grz" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-01T12:46:47.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="6cFjeYPC36mBK-CWfbh5" version="20.3.7" type="github">
   <diagram id="lzuxYSnDFWuaB7cAEX7z" name="Page-1">
     <mxGraphModel dx="1608" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
         <mxCell id="dyMfXdbEpUjlKfq9TMXT-85" value="控&lt;br&gt;制&lt;br&gt;块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="640" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dyMfXdbEpUjlKfq9TMXT-86" value="缓存页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="dyMfXdbEpUjlKfq9TMXT-86" value="缓存页&lt;br&gt;（脏页）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="340" y="640" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dyMfXdbEpUjlKfq9TMXT-87" value="缓存页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -275,7 +275,7 @@
         <mxCell id="dyMfXdbEpUjlKfq9TMXT-88" value="缓存页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="500" y="640" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dyMfXdbEpUjlKfq9TMXT-89" value="缓存页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="dyMfXdbEpUjlKfq9TMXT-89" value="缓存页&lt;br&gt;（脏页）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="580" y="640" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dyMfXdbEpUjlKfq9TMXT-90" value="" style="group" vertex="1" connectable="0" parent="1">
