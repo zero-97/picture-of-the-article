@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T09:57:32.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="Cm935dym6n1XPqLlZg4B" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T09:58:20.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="Wfgu_AZhgfcnpyiWO9Md" version="20.5.0" type="github">
   <diagram id="QXWpwdzuWoMwUjgejO0K" name="Page-1">
-    <mxGraphModel dx="593" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-23" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-23" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="90" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-23">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-23">
           <mxGeometry x="40" y="60" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-23">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-23">
           <mxGeometry x="40" y="640" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-26" value="业务服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-26" value="业务服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="90" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-26">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-26">
           <mxGeometry x="40" y="60" width="10" height="620" as="geometry" />
         </mxCell>
         <mxCell id="4xmhR8KFYXBQtZKEE0PV-43" value="写入临时文件" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="4xmhR8KFYXBQtZKEE0PV-26" source="4xmhR8KFYXBQtZKEE0PV-33" target="4xmhR8KFYXBQtZKEE0PV-33">
@@ -42,16 +42,16 @@
             <mxPoint x="40" y="678" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-27" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-27" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="400" y="40" width="90" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-27">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-27">
           <mxGeometry x="40" y="80" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-27">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-27">
           <mxGeometry x="40" y="160" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-27">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-27">
           <mxGeometry x="40" y="560" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4xmhR8KFYXBQtZKEE0PV-54" value="回写下载路径" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="4xmhR8KFYXBQtZKEE0PV-27" target="4xmhR8KFYXBQtZKEE0PV-53">
@@ -59,13 +59,13 @@
             <mxPoint x="-110" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-28" value="文件服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-28" value="文件服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="40" width="90" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-28">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-28">
           <mxGeometry x="40" y="320" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4xmhR8KFYXBQtZKEE0PV-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-28">
+        <mxCell id="4xmhR8KFYXBQtZKEE0PV-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4xmhR8KFYXBQtZKEE0PV-28">
           <mxGeometry x="40" y="400" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4xmhR8KFYXBQtZKEE0PV-51" value="生成下载路径" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="4xmhR8KFYXBQtZKEE0PV-28" target="4xmhR8KFYXBQtZKEE0PV-50">
