@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T12:38:47.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="JT62UXMn03dSks7CMljW" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:40:25.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="XauiPfRW6GsR3dP7bqFc" version="20.5.3" type="github">
   <diagram id="CVpFJR9pGLpHTyntyMCX" name="Page-1">
     <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fPC_-fTJY8qZfTLBqXyc-53" value="获取微信优惠卷" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="fPC_-fTJY8qZfTLBqXyc-52" parent="1" source="fPC_-fTJY8qZfTLBqXyc-5">
+        <mxCell id="fPC_-fTJY8qZfTLBqXyc-53" value="获取微信优惠卷&lt;br&gt;携带微信 token 和 openid" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="fPC_-fTJY8qZfTLBqXyc-52" parent="1" source="fPC_-fTJY8qZfTLBqXyc-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="740" as="sourcePoint" />
           </mxGeometry>
@@ -19,7 +19,7 @@
             <mxPoint x="680" y="626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fPC_-fTJY8qZfTLBqXyc-43" value="携带微信 token 和 openid" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="fPC_-fTJY8qZfTLBqXyc-42" parent="1" source="fPC_-fTJY8qZfTLBqXyc-5">
+        <mxCell id="fPC_-fTJY8qZfTLBqXyc-43" value="获取用户信息&lt;br&gt;携带微信 token 和 openid" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="fPC_-fTJY8qZfTLBqXyc-42" parent="1" source="fPC_-fTJY8qZfTLBqXyc-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="550" as="sourcePoint" />
           </mxGeometry>
