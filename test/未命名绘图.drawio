@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T09:03:36.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="7Ld15SH61PUG8heEE8wm" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T09:06:40.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="NtpBLfbEjcHKawsKaO42" version="21.3.8" type="github">
   <diagram name="第 1 页" id="HOC7bNua-bY7ClNRXlTB">
-    <mxGraphModel dx="1379" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FU--RE4_ICC-AWk_sWPQ-23" value="涉及接口：&lt;br&gt;1、获取令牌&lt;br&gt;2、授信额度查询&lt;br&gt;3、发票开具 /&amp;nbsp;结算单同步新增并异步开票&lt;span style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="375" width="260" height="90" as="geometry" />
+          <mxGeometry x="520" y="380" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FU--RE4_ICC-AWk_sWPQ-25" value="涉及接口：&lt;br&gt;1、获取令牌&lt;br&gt;&lt;span style=&quot;&quot;&gt;2、红字信息表填开&lt;br&gt;3、全电发票红冲&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="380" width="160" height="80" as="geometry" />
