@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T01:21:57.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" version="21.3.7" etag="TqLNA0fWrSePN5IQ4unL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T09:03:36.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="7Ld15SH61PUG8heEE8wm" version="21.3.8" type="github">
   <diagram name="第 1 页" id="HOC7bNua-bY7ClNRXlTB">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-3" target="FU--RE4_ICC-AWk_sWPQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-3" value="功能：根据乘客的证件号码、乘车日期，查询乘客的有效购票记录，以列表形式展现&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;入参：证件号码、乘车日期&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;出参：&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="15" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-5" target="FU--RE4_ICC-AWk_sWPQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-5" value="&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;H5页面&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-6" target="FU--RE4_ICC-AWk_sWPQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-6" value="百望页面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-8" value="需要传哪些参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-11" target="FU--RE4_ICC-AWk_sWPQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-11" target="FU--RE4_ICC-AWk_sWPQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-11" value="发票服务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-13" value="回调 verify() 接口，入参是什么" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-15" target="FU--RE4_ICC-AWk_sWPQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-15" value="功能：根据百望的数据，生成开票记录，需要入库。后续通过定时任务，异步开票&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;入参：需要确认百望提供什么参数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;出参：需要确认百望需要什么响应&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="255" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-17" target="FU--RE4_ICC-AWk_sWPQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-17" target="FU--RE4_ICC-AWk_sWPQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-17" value="定时任务 -&amp;nbsp; 红票" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-20" target="FU--RE4_ICC-AWk_sWPQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-20" value="定时任务 -&amp;nbsp; 蓝票" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FU--RE4_ICC-AWk_sWPQ-23" target="FU--RE4_ICC-AWk_sWPQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-23" value="涉及接口：&lt;br&gt;1、获取令牌&lt;br&gt;2、授信额度查询&lt;br&gt;3、发票开具 /&amp;nbsp;结算单同步新增并异步开票&lt;span style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="375" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-25" value="涉及接口：&lt;br&gt;1、获取令牌&lt;br&gt;&lt;span style=&quot;&quot;&gt;2、红字信息表填开&lt;br&gt;3、全电发票红冲&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FU--RE4_ICC-AWk_sWPQ-27" value="发票服务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
