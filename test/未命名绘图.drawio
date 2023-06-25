@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T07:50:24.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="_Y2w9Jzfv0mQPBkLKXmC" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:55:25.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="mzEl62D2W7WqMoZk4LSk" version="21.3.8" type="github">
   <diagram name="第 1 页" id="HOC7bNua-bY7ClNRXlTB">
     <mxGraphModel dx="2206" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,11 +188,20 @@
         <mxCell id="kJ-RgNJBBdPj5PcARNe8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJ-RgNJBBdPj5PcARNe8-64" target="kJ-RgNJBBdPj5PcARNe8-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kJ-RgNJBBdPj5PcARNe8-64" value="Replica Set" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-638.75" y="130" width="127.5" height="50" as="geometry" />
+        <mxCell id="kJ-RgNJBBdPj5PcARNe8-64" value="Replica Set" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-638.75" y="140" width="127.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kJ-RgNJBBdPj5PcARNe8-68" value="定期的检测当前存活的Pod数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-580" y="190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kJ-RgNJBBdPj5PcARNe8-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJ-RgNJBBdPj5PcARNe8-69" target="kJ-RgNJBBdPj5PcARNe8-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJ-RgNJBBdPj5PcARNe8-69" value="kubelet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="760" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kJ-RgNJBBdPj5PcARNe8-73" value="运行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="720" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
