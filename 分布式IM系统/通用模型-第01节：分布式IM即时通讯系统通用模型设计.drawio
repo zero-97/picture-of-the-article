@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T15:45:11.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="KETWOOzPR8r0nZTPxdis" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T16:19:53.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="u5yHaFWttnH5--SpCZKB" version="22.1.16" type="github">
   <diagram name="第 1 页" id="prUwxHIpTpnHMeyIK_7-">
-    <mxGraphModel dx="2624" dy="2142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3258" dy="2485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,17 +54,6 @@
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-20" value="即时通讯服务&lt;br&gt;集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F497;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="860" y="420" width="100" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vA53lnIsRnmp6saCnfre-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-21" value="IMLoginInfo&lt;br&gt;登录信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="40" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-22" value="IMSessionInfo&lt;span style=&quot;color: rgb(51, 51, 51); font-family: monospace; font-size: 16px; text-align: left; background-color: rgba(0, 0, 0, 0.03);&quot;&gt; &lt;/span&gt;&lt;br&gt;Session信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-24" value="IMHeartbeatInfo&lt;br&gt;心跳数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="520" y="960" width="120" height="40" as="geometry" />
@@ -178,10 +167,33 @@
           <mxGeometry x="40" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-86" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-240" y="380" width="120" height="100" as="geometry" />
+          <mxGeometry x="-200" y="158" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-86">
           <mxGeometry width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vA53lnIsRnmp6saCnfre-86" source="vA53lnIsRnmp6saCnfre-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vA53lnIsRnmp6saCnfre-86" source="vA53lnIsRnmp6saCnfre-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="-118" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="50" />
+              <mxPoint x="200" y="-118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="vA53lnIsRnmp6saCnfre-86" source="vA53lnIsRnmp6saCnfre-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="50" />
+              <mxPoint x="200" y="202" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-72" value="IMPrivateMessage&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;私聊数据模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vA53lnIsRnmp6saCnfre-86">
           <mxGeometry width="120" height="40" as="geometry" />
@@ -227,32 +239,21 @@
             <mxPoint x="250" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-78" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="410" y="770" width="120" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-78">
-          <mxGeometry width="120" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vA53lnIsRnmp6saCnfre-78" source="vA53lnIsRnmp6saCnfre-80">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="-270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-80" value="IMReceivenfo&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;通用接收数据模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vA53lnIsRnmp6saCnfre-78">
-          <mxGeometry width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-81" value="IMPrivateMessage&lt;br&gt;私聊数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-78">
-          <mxGeometry x="10" y="40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-82" value="IMUserInfo&lt;br&gt;用户信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-78">
-          <mxGeometry x="10" y="90" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-110" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="570" y="760" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vA53lnIsRnmp6saCnfre-110" source="vA53lnIsRnmp6saCnfre-95">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vA53lnIsRnmp6saCnfre-110" source="vA53lnIsRnmp6saCnfre-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="-260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="-140" />
+              <mxPoint x="241" y="-140" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-95" value="TopicMessage&lt;br&gt;RocketMQ数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-110">
@@ -273,31 +274,77 @@
         <mxCell id="vA53lnIsRnmp6saCnfre-102" value="IMUserInfo&lt;br&gt;用户信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-97">
           <mxGeometry x="10" y="90" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-111" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="750" y="760" width="120" height="180" as="geometry" />
+        <mxCell id="vA53lnIsRnmp6saCnfre-127" value="IMLoginInfo&lt;br&gt;登录信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vA53lnIsRnmp6saCnfre-111" source="vA53lnIsRnmp6saCnfre-96">
+        <mxCell id="vA53lnIsRnmp6saCnfre-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vA53lnIsRnmp6saCnfre-128">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="-260" as="targetPoint" />
+            <mxPoint x="300" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="640" />
+              <mxPoint y="610" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-96" value="TopicMessage&lt;br&gt;RocketMQ数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-111">
+        <mxCell id="vA53lnIsRnmp6saCnfre-128" value="IMSessionInfo&lt;span style=&quot;color: rgb(51, 51, 51); font-family: monospace; font-size: 16px; text-align: left; background-color: rgba(0, 0, 0, 0.03);&quot;&gt; &lt;/span&gt;&lt;br&gt;Session信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vA53lnIsRnmp6saCnfre-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="610" as="targetPoint" />
+            <mxPoint x="-70" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint y="580" />
+              <mxPoint y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-145" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1080" y="400" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-133" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-145">
+          <mxGeometry y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-134" value="TopicMessage&lt;br&gt;RocketMQ数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-145">
           <mxGeometry width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-103" value="" style="group" vertex="1" connectable="0" parent="vA53lnIsRnmp6saCnfre-111">
-          <mxGeometry y="40" width="120" height="140" as="geometry" />
+        <mxCell id="vA53lnIsRnmp6saCnfre-135" value="IMSendResult&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;响应结果数据模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vA53lnIsRnmp6saCnfre-145">
+          <mxGeometry y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-103">
-          <mxGeometry width="120" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-106" value="IMReceivenfo&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;通用接收数据模型&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vA53lnIsRnmp6saCnfre-103">
-          <mxGeometry width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-107" value="IMPrivateMessage&lt;br&gt;私聊数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-103">
-          <mxGeometry x="10" y="40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vA53lnIsRnmp6saCnfre-108" value="IMUserInfo&lt;br&gt;用户信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-103">
+        <mxCell id="vA53lnIsRnmp6saCnfre-144" value="IMUserInfo&lt;br&gt;用户信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=6;" vertex="1" parent="vA53lnIsRnmp6saCnfre-145">
           <mxGeometry x="10" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-146" value="发送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vA53lnIsRnmp6saCnfre-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="370" as="sourcePoint" />
+            <mxPoint x="810" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="370" />
+              <mxPoint x="810" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-148" value="响应结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="975" y="338" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vA53lnIsRnmp6saCnfre-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="410" as="sourcePoint" />
+            <mxPoint x="630" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="370" />
+              <mxPoint x="630" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-152" value="发送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="728" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vA53lnIsRnmp6saCnfre-153" value="登录验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="550" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
