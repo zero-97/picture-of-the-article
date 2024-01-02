@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T16:20:46.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="6Jo3w_QsOlx684Us-D20" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T16:20:55.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ymH9Fj6nM7RfrR5BifL6" version="22.1.16" type="github">
   <diagram name="第 1 页" id="prUwxHIpTpnHMeyIK_7-">
     <mxGraphModel dx="2893" dy="2288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,16 +56,16 @@
           <mxGeometry x="860" y="420" width="100" height="140" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-24" value="IMHeartbeatInfo&lt;br&gt;心跳数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="520" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-26" value="IMGroupMessage&lt;br&gt;群聊数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="840" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="840" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-29" value="IMSendResult&lt;br&gt;响应结果数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-30" value="TopicMessage&lt;br&gt;RocketMQ数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;entryX=0.043;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vA53lnIsRnmp6saCnfre-1" target="vA53lnIsRnmp6saCnfre-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -152,19 +152,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-60" value="IMReceivenfo&lt;br&gt;通用接收数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-61" value="IMLoginInfo&lt;br&gt;登录信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="40" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-62" value="IMSessionInfo&lt;span style=&quot;color: rgb(51, 51, 51); font-family: monospace; font-size: 16px; text-align: left; background-color: rgba(0, 0, 0, 0.03);&quot;&gt; &lt;/span&gt;&lt;br&gt;Session信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="200" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="200" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-63" value="IMUserInfo&lt;br&gt;用户信息模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="360" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-64" value="IMPrivateMessage&lt;br&gt;私聊数据模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="680" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-86" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-200" y="158" width="120" height="100" as="geometry" />
@@ -219,7 +219,7 @@
           <mxGeometry x="10" y="50" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-93" value="IMSendInfo&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;通用发送数据模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacing=6;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="1080" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vA53lnIsRnmp6saCnfre-114" value="推送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="985" y="258" width="70" height="30" as="geometry" />
