@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
   <diagram name="第 1 页" id="nH9Qb6eL47Q7_xetTgdc">
-    <mxGraphModel dx="2247" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="1473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,11 +80,11 @@
         <mxCell id="-P7vnS4vUtswm3thDRi9-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wiICf1U_tyPMDzb99P_6-5" source="-P7vnS4vUtswm3thDRi9-31" target="-P7vnS4vUtswm3thDRi9-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-P7vnS4vUtswm3thDRi9-31" value="客服处理订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
-          <mxGeometry x="150" y="700" width="80" height="40" as="geometry" />
+        <mxCell id="-P7vnS4vUtswm3thDRi9-31" value="客服处理订单&lt;div&gt;票源方出票成功&lt;/div&gt;&lt;div&gt;云票库出票失败&lt;/div&gt;&lt;div&gt;分销方出票失败&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
+          <mxGeometry x="140" y="700" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-35" value="在账单明细中进行特殊标记" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
-          <mxGeometry x="150" y="780" width="80" height="40" as="geometry" />
+          <mxGeometry x="150" y="790" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-38" value="核实" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
           <mxGeometry x="150" y="850" width="80" height="40" as="geometry" />
@@ -92,11 +92,17 @@
         <mxCell id="-P7vnS4vUtswm3thDRi9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wiICf1U_tyPMDzb99P_6-5" source="-P7vnS4vUtswm3thDRi9-35" target="-P7vnS4vUtswm3thDRi9-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-P7vnS4vUtswm3thDRi9-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wiICf1U_tyPMDzb99P_6-5" source="-P7vnS4vUtswm3thDRi9-32" target="-P7vnS4vUtswm3thDRi9-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-32" value="总金额大于票源方金额" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
-          <mxGeometry x="50" y="620" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="620" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-78" value="财务打款" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
           <mxGeometry x="290" y="700" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7vnS4vUtswm3thDRi9-81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
+          <mxGeometry x="40" y="700" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wiICf1U_tyPMDzb99P_6-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;财务&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="280" y="-40" width="240" height="960" as="geometry" />
@@ -213,7 +219,7 @@
         <mxCell id="-P7vnS4vUtswm3thDRi9-58" value="票源方出票成功&lt;div&gt;云票库出票成功&lt;/div&gt;&lt;div&gt;分销方出票失败&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-7">
           <mxGeometry x="150" y="680" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-P7vnS4vUtswm3thDRi9-60" value="客服处理订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-7">
+        <mxCell id="-P7vnS4vUtswm3thDRi9-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-7">
           <mxGeometry x="280" y="680" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="wiICf1U_tyPMDzb99P_6-7" source="-P7vnS4vUtswm3thDRi9-65" target="-P7vnS4vUtswm3thDRi9-66">
