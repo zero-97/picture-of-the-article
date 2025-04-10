@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
+  <diagram name="第 1 页" id="nH9Qb6eL47Q7_xetTgdc">
+    <mxGraphModel dx="1420" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wiICf1U_tyPMDzb99P_6-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应收方&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-40" width="240" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-38" value="账单明细" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
+          <mxGeometry x="50" y="295" width="100" height="120" as="geometry">
+            <mxRectangle x="50" y="200" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-39" value="服务费账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-38">
+          <mxGeometry x="10" y="60" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-40" value="应收票款账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-38">
+          <mxGeometry x="10" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-41" value="……" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-38">
+          <mxGeometry x="10" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;云票库&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-40" width="240" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wiICf1U_tyPMDzb99P_6-6" source="wiICf1U_tyPMDzb99P_6-8" target="wiICf1U_tyPMDzb99P_6-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-8" value="订单信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-6">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wiICf1U_tyPMDzb99P_6-6" source="wiICf1U_tyPMDzb99P_6-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="205.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;订单生成账单规则：&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;根据业务配置&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;（1）应收票款&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;（2）应收票款&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;（3）服务费&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;（4）……&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-6">
+          <mxGeometry x="150" y="150" width="86" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-47" value="账单明细" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-6">
+          <mxGeometry x="70" y="280" width="100" height="150" as="geometry">
+            <mxRectangle x="50" y="200" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-48" value="应收票款账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-47">
+          <mxGeometry x="10" y="60" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-49" value="应付票款账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-47">
+          <mxGeometry x="10" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-50" value="服务费账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-47">
+          <mxGeometry x="10" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-52" value="……" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-47">
+          <mxGeometry x="10" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应付方&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-40" width="280" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-37" value="账单明细" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-7">
+          <mxGeometry x="90" y="310" width="100" height="90" as="geometry">
+            <mxRectangle x="90" y="200" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-30" value="……" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-37">
+          <mxGeometry x="10" y="60" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-27" value="应付票款账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-37">
+          <mxGeometry x="10" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiICf1U_tyPMDzb99P_6-47" target="wiICf1U_tyPMDzb99P_6-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiICf1U_tyPMDzb99P_6-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiICf1U_tyPMDzb99P_6-47" target="wiICf1U_tyPMDzb99P_6-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
