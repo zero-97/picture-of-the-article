@@ -134,7 +134,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VvCaLOqVxByY7A7o61GJ-18" value="上传双方认可的有效附件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
+        <mxCell id="VvCaLOqVxByY7A7o61GJ-18" value="上传核实附件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-5">
           <mxGeometry x="150" y="900" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wiICf1U_tyPMDzb99P_6-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;财务&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
@@ -307,7 +307,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VvCaLOqVxByY7A7o61GJ-13" value="上传双方认可的有效附件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-7">
+        <mxCell id="VvCaLOqVxByY7A7o61GJ-13" value="上传核实附件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wiICf1U_tyPMDzb99P_6-7">
           <mxGeometry x="160" y="900" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wiICf1U_tyPMDzb99P_6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wiICf1U_tyPMDzb99P_6-47" target="wiICf1U_tyPMDzb99P_6-37" edge="1">
