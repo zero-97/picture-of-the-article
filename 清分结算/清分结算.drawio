@@ -40,7 +40,7 @@
         </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-21" value="无误" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-P7vnS4vUtswm3thDRi9-20" vertex="1" connectable="0">
           <mxGeometry x="0.016" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-P7vnS4vUtswm3thDRi9-9" value="核对" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" parent="wiICf1U_tyPMDzb99P_6-5" vertex="1">
